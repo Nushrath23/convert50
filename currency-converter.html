@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Convert50 - currency converter</title>
+  <script src="currency-converter.js"></script>
+  <link rel="stylesheet" href="currency-converter.css">
+</head>
+<body>
+  <h1>Convert50</h1>
+  <h3>-Currency Converter-</h3>
+  <div>
+    <label for="amount">Amount:</label>
+    <input type="number" id="amount" step="0.01" min="0">
+  </div>
+  <div>
+    <label for="fromCurrency">From:</label>
+    <select id="fromCurrency">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="GBP">GBP</option>
+      <option value="LKR">LKR</option>
+      <option value="JPY">JPY</option>
+      <option value="CAD">CAD</option>
+      <option value="AUD">AUD</option>
+      <option value="CHF">CHF</option>
+      <option value="CNY">CNY</option>
+      <option value="SEK">SEK</option>
+      <option value="NZD">NZD</option>
+      <option value="MXN">MXN</option>
+      <option value="SGD">SGD</option>
+      <option value="HKD">HKD</option>
+      <option value="NOK">NOK</option>
+      <option value="KRW">KRW</option>
+      <option value="TRY">TRY</option>
+      <option value="RUB">RUB</option>
+      <option value="INR">INR</option>
+      <option value="BRL">BRL</option>
+      <option value="ZAR">ZAR</option>
+    </select>
+  </div>
+  <div>
+    <label for="toCurrency">To:</label>
+    <select id="toCurrency">
+      <option value="EUR">EUR</option>
+      <option value="USD">USD</option>
+      <option value="GBP">GBP</option>
+      <option value="LKR">LKR</option>
+      <option value="JPY">JPY</option>
+      <option value="CAD">CAD</option>
+      <option value="AUD">AUD</option>
+      <option value="CHF">CHF</option>
+      <option value="CNY">CNY</option>
+      <option value="SEK">SEK</option>
+      <option value="NZD">NZD</option>
+      <option value="MXN">MXN</option>
+      <option value="SGD">SGD</option>
+      <option value="HKD">HKD</option>
+      <option value="NOK">NOK</option>
+      <option value="KRW">KRW</option>
+      <option value="TRY">TRY</option>
+      <option value="RUB">RUB</option>
+      <option value="INR">INR</option>
+      <option value="BRL">BRL</option>
+      <option value="ZAR">ZAR</option>
+    </select>
+  </div><br>
+  <button id="convertBtn">Convert</button><br>
+  <p id="result"></p><br>
+
+  <script src="currency-converter.js"></script>
+</body>
+<div id="intro">
+Convert50 by <br>
+Nushrath Nazeer <br>
+from Kandy, Sri Lanka<br>
+</div>
+</html>
